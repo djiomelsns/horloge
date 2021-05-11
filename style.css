@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+width: 400px; 
+height: 250px;
+border: 30px solid gray ;
+background-color: aqua;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+}
+.time{
+    height: 200px;
+    line-height: 200px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+.date{
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Krona One', sans-serif;
+    background-color: white;
+}
+.color{
+    height: 50px;
+    line-height: 35px;
+}
+input[type="color"]{
+    border: 0;
+    background-color: black;
+}
