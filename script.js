@@ -3,7 +3,7 @@ function setTime(){
   var time = document.querySelector(".time-T");
   time.innerHTML = date.getHours() + ":" +date.getMinutes();
   var data = document.querySelector(".time-D");
-  data.innerHTML =date.getDay() +"-"+parseInt(date.getMonth()+1)+"-"+date.getFullYear() ;
+  data.innerHTML = date.getDate() +"-"+parseInt(date.getMonth()+1)+"-"+date.getFullYear() ;
 }
 setInterval(setTime,100);
 onload = setTime();
